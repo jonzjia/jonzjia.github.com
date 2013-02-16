@@ -49,11 +49,11 @@ function checkStyle() {
 function setStyle(color) {
 	$('style[id^="less:"]').remove();
 	if (color == "light") {
-		$('link#page_style').attr({href:"css/light.less"});
+		$('link#page_style').attr({href:"/css/light.css"});
 		eat("style");
 		bake("style", "light", 7);
 	} else {
-		$('link#page_style').attr({href:"css/dark.less"});
+		$('link#page_style').attr({href:"/css/dark.css"});
 		eat("style");
 		bake("style", "dark", 7);
 	}

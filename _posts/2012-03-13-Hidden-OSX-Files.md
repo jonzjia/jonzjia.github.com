@@ -4,7 +4,7 @@ title: Hidden OS X Files
 ---
 
 {{ page.title }}
-================
+----------------
 
 Every now and then I need to view hidden files in OS X, primarily .htaccess for
 website stuff, which Lion hides from view by default. Rather than dig through

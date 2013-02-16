@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: vim ftp & keyboard remapping
 ---
 

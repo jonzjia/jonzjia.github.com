@@ -1,0 +1,145 @@
+/* Solarized Theme Colors */
+/* GENERAL */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #fdf6e3;
+  font-weight: normal;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: normal;
+  color: #586e75;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 28px;
+  line-height: 36px;
+}
+h4 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+h1 small {
+  font-size: 28px;
+  color: #bfbfbf;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #268bd2;
+}
+a:visited {
+  color: #6c71c4;
+}
+a:hover {
+  color: #cb4b16;
+}
+.keyCombo {
+  width: 35px;
+  text-align: right;
+  color: #dc322f;
+}
+.keyExplanation {
+  width: 250px;
+  color: #b58900;
+}
+.container {
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container > footer p {
+  text-align: center;
+  color: #888888;
+}
+/* HEADER */
+.container .header {
+  text-align: left;
+}
+/* CONTENT */
+.container .content h3,
+h4 {
+  text-align: left;
+}
+.container .content h4 small {
+  font-size: 13px;
+  color: #999999;
+}
+.container .content img {
+  padding-right: 20px;
+}
+/* FOOTER */
+/* #footer small {font-size:12px; "Lucida Grande", Verdana, Tahoma;} */
+/* Tinybox Modal Popup Settings */
+#tinybox {
+  position: absolute;
+  display: none;
+  padding: 10px;
+  background: #ffffff url(../imgs/360.gif) no-repeat 50% 50%;
+  border: 10px solid #e3e3e3;
+  z-index: 2000;
+}
+#tinymask {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  z-index: 1500;
+}
+#tinycontent {
+  background: #ffffff;
+}
+.tbox {
+  position: absolute;
+  display: none;
+  padding: 14px 17px;
+  z-index: 900;
+}
+.tinner {
+  padding: 15px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #fdf6e3 url(../imgs/360.gif) no-repeat 50% 50%;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333333;
+}
+.tmask {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  z-index: 800;
+}
+.tclose {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background: url(../imgs/close.png) no-repeat;
+}
+.tclose:hover {
+  background-position: 0 -30px;
+}

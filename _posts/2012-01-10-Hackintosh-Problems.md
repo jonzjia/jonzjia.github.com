@@ -1,10 +1,10 @@
 ---
-layout:post
+layout: post
 title: Hackintosh Problems
 ---
 
 {{ page.title }}
-================
+----------------
 So I made a hackintosh a few weeks ago following this wonderful [guide][1] over
 at [tonymacx86][2]. It was pretty fun to do and I like to think that I learned
 something about computers. The installation was fairly straightfoward and the
