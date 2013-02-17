@@ -4,8 +4,7 @@ title: vim ftp & keyboard remapping
 ---
 
 {{ page.title }}
-================
-
+----------------
 After reading [this article][1] on how to level up as a programmer, I decided
 to learn vim.
 

@@ -4,8 +4,7 @@ title: I hate wearing a suit
 ---
 
 {{ page.title }}
-================
-
+----------------
 It was hot today, especially in the morning. I work in an office in East
 Midtown.
 
@@ -31,5 +30,3 @@ Then he smiled and waved as I stepped out.
 I waved back.
 
 "You too."
-
-***
